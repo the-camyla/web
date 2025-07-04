@@ -1,0 +1,45 @@
+
+#blog h3, h4 {
+	text-align: center;
+}
+
+#blog.contenedor {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#blog article {
+	margin: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;  
+}
+
+#blog img {
+	width: 100%;
+	max-width: 280px;  
+	height: 200px;   
+	object-fit: cover; 
+}
+
+#blog h3, #blog h4 {
+	text-align: center;
+}
+
+#blog .contenedor {
+	display: flex;
+	justify-content: center;
+	gap: 20px; 
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+
+#blog article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 240px;
+}
